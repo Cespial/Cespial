@@ -21,7 +21,18 @@
 
 Academic papers + Google Earth Engine pipelines on land use change, deforestation, and mining detection in post-conflict Colombia.
 
-- 🌊 [antioquia-flood-risk](https://github.com/Cespial/antioquia-flood-risk) - Municipality-scale flood risk mapping with Sentinel-1 SAR & Ensemble ML (2015–2025)
+**Flood Risk Mapping (Sentinel-1 SAR + Ensemble ML)**
+
+- 🌊 [antioquia-flood-risk](https://github.com/Cespial/antioquia-flood-risk) - Antioquia — municipality-scale flood risk mapping (2015–2025)
+- 🌊 [bolivar-flood-risk](https://github.com/Cespial/bolivar-flood-risk) - Bolivar — municipality-scale flood risk mapping (2015–2025)
+- 🌊 [cauca-flood-risk](https://github.com/Cespial/cauca-flood-risk) - Cauca — municipality-scale flood risk mapping (2015–2025)
+- 🌊 [choco-flood-risk](https://github.com/Cespial/choco-flood-risk) - Choco — municipality-scale flood risk mapping (2015–2025)
+- 🌊 [narino-flood-risk](https://github.com/Cespial/narino-flood-risk) - Narino — municipality-scale flood risk mapping (2015–2025)
+- 🌊 [magdalena_flood_risk_research](https://github.com/Cespial/magdalena_flood_risk_research) - Magdalena — municipality-scale flood risk mapping (2015–2025)
+- 🏜️ [guajira-flood-risk](https://github.com/Cespial/guajira-flood-risk) - La Guajira — arid/semi-arid adaptation with Sand Exclusion Layer
+
+**Land Use Change & Mining Detection**
+
 - 🌿 [magdalena_medio_research](https://github.com/Cespial/magdalena_medio_research) - Post-conflict LULC transitions & ecosystem services loss in Magdalena Medio
 - 🌴 [uraba_research](https://github.com/Cespial/uraba_research) - Post-conflict land use transitions in Uraba, Antioquia
 - 🪵 [bajo_cauca_research](https://github.com/Cespial/bajo_cauca_research) - Mining-driven deforestation in Bajo Cauca, Antioquia
@@ -64,6 +75,5 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 ---
 
 <p align="center">
-  <i>All repos tagged with <a href="https://github.com/Cespial?tab=repositories">topics</a> for easy filtering: <code>research-eafit</code> · <code>observatorio</code> · <code>facturacion</code> · <code>consultoria</code> · <code>educacion</code> · <code>landing-page</code></i>
+  <i>All repos tagged with <a href="https://github.com/Cespial?tab=repositories">topics</a> for easy filtering: <code>research-eafit</code> · <code>flood-risk</code> · <code>observatorio</code> · <code>facturacion</code> · <code>consultoria</code> · <code>educacion</code> · <code>landing-page</code></i>
 </p>
-<!-- profile-readme -->
