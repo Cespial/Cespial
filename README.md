@@ -20,7 +20,7 @@
 ### Currently working on
 
 - 🌊 [colombia-flood-risk](https://github.com/Cespial/colombia-flood-risk) - Flood risk mapping across 7 Colombian departments with Sentinel-1 SAR + Ensemble ML
-- 🧮 [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) - Tax SuperApp — 26 calculators, AI, fiscal calendar — [superapp-tributaria-colombia.vercel.app](https://superapp-tributaria-colombia.vercel.app)
+- 🧮 [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) - Tax SuperApp — 35 calculators, RAG AI assistant, iOS app, doctrina DIAN — [superapp-tributaria-colombia.vercel.app](https://superapp-tributaria-colombia.vercel.app)
 - 📋 [mga-estructurador](https://github.com/Cespial/mga-estructurador) - MGA project structuring platform for government grants — [mga-estructurador.vercel.app](https://mga-estructurador.vercel.app)
 - 🏙️ [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) - City Observatory for Apartado — 55 tables, 123K+ records — [observatorio-apartado.vercel.app](https://observatorio-apartado.vercel.app)
 - 🏛️ [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) - Legislative observatory for Medellin's City Council — [observatorio-concejo-medellin.vercel.app](https://observatorio-concejo-medellin.vercel.app)
@@ -55,7 +55,7 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 
 - 📋 [mga-estructurador](https://github.com/Cespial/mga-estructurador) - MGA project structuring platform for government grants — [mga-estructurador.vercel.app](https://mga-estructurador.vercel.app)
 - 🎓 [vfpa-jic](https://github.com/Cespial/vfpa-jic) - Financial viability tool for academic programs — Politecnico JIC — [vfpa-jic.vercel.app](https://vfpa-jic.vercel.app)
-- 🧮 [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) - Tax SuperApp — 26 calculators, AI, fiscal calendar — [superapp-tributaria-colombia.vercel.app](https://superapp-tributaria-colombia.vercel.app)
+- 🧮 [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) - Tax SuperApp — 35 calculators, RAG AI assistant, iOS app, doctrina DIAN — [superapp-tributaria-colombia.vercel.app](https://superapp-tributaria-colombia.vercel.app)
 - 📈 [IUPB](https://github.com/Cespial/IUPB) - Institutional analytics — SNIES, Saber Pro/TyT, dropout & academic supply (R)
 - 📍 [hptu-localizacion](https://github.com/Cespial/hptu-localizacion) - HPTU site selection study — MCDA analysis with 2.6M+ records — [hptu-localizacion.vercel.app](https://hptu-localizacion.vercel.app)
 - 🗳️ lilianarectora.co (closed source) - Institutional campaign platform — Pascual Bravo — [lilianarectora.co](https://lilianarectora.co)
