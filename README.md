@@ -1,91 +1,68 @@
-# Hola, soy Cristian Espinal Maya
+# Hi, I'm Cristian 👋
 
-**Medellin, Colombia** | **[fourier.dev](https://fourier.dev)**
+📍 Medellin, Colombia | 🏗️ Builder at [fourier.dev](https://fourier.dev) | 🛰️ Remote Sensing Researcher
 
----
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+![Claude](https://img.shields.io/badge/-Claude-D97757?style=flat&logo=anthropic&logoColor=white)
+![GEE](https://img.shields.io/badge/-Google%20Earth%20Engine-4285F4?style=flat&logo=google-earth&logoColor=white)
+![R](https://img.shields.io/badge/-R-276DC3?style=flat&logo=r&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+![PostGIS](https://img.shields.io/badge/-PostGIS-336791?style=flat&logo=postgresql&logoColor=white)
 
-## Investigacion Academica | Remote Sensing
-
-Papers academicos y pipelines de analisis geoespacial con Google Earth Engine — Universidad EAFIT.
-
-| Repositorio | Descripcion | Stack |
-|---|---|---|
-| [antioquia-flood-risk](https://github.com/Cespial/antioquia-flood-risk) | Mapeo de riesgo de inundaciones con Sentinel-1 SAR y Ensemble ML | Python, GEE |
-| [magdalena_medio_research](https://github.com/Cespial/magdalena_medio_research) | Transiciones LULC posconflicto en el Magdalena Medio | Python, GEE |
-| [uraba_research](https://github.com/Cespial/uraba_research) | Transiciones LULC posconflicto en el Uraba Antioqueno | LaTeX, GEE |
-| [bajo_cauca_research](https://github.com/Cespial/bajo_cauca_research) | Deforestacion por mineria en el Bajo Cauca Antioqueno | LaTeX, GEE |
-| [minerio_magdalena_medio](https://github.com/Cespial/minerio_magdalena_medio) | Deteccion satelital de mineria de oro artesanal (ASGM) | LaTeX, GEE |
-
----
-
-## Observatorios | Datos Territoriales
-
-Plataformas de datos abiertos para analisis territorial en Antioquia.
-
-| Repositorio | Descripcion | Stack |
-|---|---|---|
-| [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) | Observatorio de Ciudades — Apartado (55 tablas, 123,270 registros) | Python, FastAPI, React, PostGIS |
-| [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) | Observatorio legislativo del Concejo de Medellin | Next.js, Supabase |
-| [marinilla_empleos](https://github.com/Cespial/marinilla_empleos) | Scraper multi-fuente de empleo para 23 municipios del Oriente Antioqueno | Python |
+> Building data platforms, territorial observatories, and geospatial research tools for Colombia. Combining satellite imagery, AI, and full-stack development to solve real problems at the municipal scale.
 
 ---
 
-## Facturacion | Contabilidad
+### 🛰️ Research — EAFIT
 
-Herramientas de facturacion electronica y contabilidad para Colombia.
+Academic papers + Google Earth Engine pipelines on land use change, deforestation, and mining detection in post-conflict Colombia.
 
-| Repositorio | Descripcion | Stack |
-|---|---|---|
-| [factura-app](https://github.com/Cespial/factura-app) | Dashboard SaaS para gestion de facturas electronicas | Next.js, Supabase |
-| [declaraciones_ICA](https://github.com/Cespial/declaraciones_ICA) | Declaraciones ICA con extraccion de tarifas por IA | Next.js, Claude API |
-| [Mi_OCR_Facturas](https://github.com/Cespial/Mi_OCR_Facturas) | Extraccion automatizada de facturas con Claude Vision → Excel | Python, Claude AI |
-| [swift-receipt-vision-main](https://github.com/Cespial/swift-receipt-vision-main) | Landing de FacturaAI — extraccion de facturas con IA | React, Framer Motion |
-| [auxiliar-contable-digital-main](https://github.com/Cespial/auxiliar-contable-digital-main) | Landing de Miauxi — asistente contable digital con IA | React, Framer Motion |
+- 🌊 [antioquia-flood-risk](https://github.com/Cespial/antioquia-flood-risk) - Municipality-scale flood risk mapping with Sentinel-1 SAR & Ensemble ML (2015–2025)
+- 🌿 [magdalena_medio_research](https://github.com/Cespial/magdalena_medio_research) - Post-conflict LULC transitions & ecosystem services loss in Magdalena Medio
+- 🌴 [uraba_research](https://github.com/Cespial/uraba_research) - Post-conflict land use transitions in Uraba, Antioquia
+- 🪵 [bajo_cauca_research](https://github.com/Cespial/bajo_cauca_research) - Mining-driven deforestation in Bajo Cauca, Antioquia
+- ⛏️ [minerio_magdalena_medio](https://github.com/Cespial/minerio_magdalena_medio) - Satellite detection of artisanal gold mining (ASGM)
 
----
+### 🔭 Observatories & Territorial Data
 
-## Consultoria | Proyectos Institucionales
+- 🏙️ [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) - City Observatory for Apartado — 55 tables, 123K+ records, 16 official sources (FastAPI + React + Deck.gl + PostGIS)
+- 🏛️ [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) - Legislative observatory for Medellin's City Council — initiatives & thematic analysis
+- 💼 [marinilla_empleos](https://github.com/Cespial/marinilla_empleos) - Multi-source job scraper for 23 municipalities, 8 sources (Computrabajo, LinkedIn, SENA...)
 
-Plataformas y herramientas desarrolladas para instituciones publicas y educativas.
+### 💰 Invoicing & Accounting
 
-| Repositorio | Descripcion | Stack |
-|---|---|---|
-| [mga-estructurador](https://github.com/Cespial/mga-estructurador) | Estructurador de proyectos MGA por convocatorias gubernamentales | TypeScript |
-| [vfpa-jic](https://github.com/Cespial/vfpa-jic) | Viabilidad Financiera de Programas Academicos — Politecnico JIC | TypeScript |
-| [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) | SuperApp Tributaria — 26 calculadoras, IA, calendario fiscal | TypeScript, Next.js |
-| [IUPB](https://github.com/Cespial/IUPB) | Analisis institucional — SNIES, Saber Pro/TyT, desercion | R |
-| [hptu-localizacion](https://github.com/Cespial/hptu-localizacion) | Estudio de localizacion HPTU — analisis MCDA con 2.6M+ registros | Next.js, Leaflet |
+- 📊 [factura-app](https://github.com/Cespial/factura-app) - SaaS dashboard for Colombian electronic invoicing (Next.js + Supabase)
+- 🏢 [declaraciones_ICA](https://github.com/Cespial/declaraciones_ICA) - ICA tax declarations with AI-powered rate extraction (Next.js + Claude API)
+- 🔍 [Mi_OCR_Facturas](https://github.com/Cespial/Mi_OCR_Facturas) - Automated invoice data extraction with Claude Vision → structured Excel
+- 🧾 [swift-receipt-vision-main](https://github.com/Cespial/swift-receipt-vision-main) - FacturaAI landing page — AI invoice extraction
+- 🤖 [auxiliar-contable-digital-main](https://github.com/Cespial/auxiliar-contable-digital-main) - Miauxi landing — AI-powered digital accounting assistant
 
----
+### 🏛️ Consulting & Institutional Projects
 
-## Educacion | Ejercicios Tecnicos
+- 📋 [mga-estructurador](https://github.com/Cespial/mga-estructurador) - MGA project structuring platform for government grants
+- 🎓 [vfpa-jic](https://github.com/Cespial/vfpa-jic) - Financial viability tool for academic programs — Politecnico JIC
+- 🧮 [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) - Tax SuperApp — 26 calculators, AI, fiscal calendar, indicators & glossary
+- 📈 [IUPB](https://github.com/Cespial/IUPB) - Institutional analytics — SNIES, Saber Pro/TyT, dropout & academic supply (R)
+- 📍 [hptu-localizacion](https://github.com/Cespial/hptu-localizacion) - HPTU site selection study — MCDA analysis with 2.6M+ records & interactive maps
 
-| Repositorio | Descripcion | Stack |
-|---|---|---|
-| [ms-franchise-neg-main](https://github.com/Cespial/ms-franchise-neg-main) | Microservicio reactivo — Arquitectura Hexagonal + Spring WebFlux | Java, AWS |
-| [evaluador-franquicias](https://github.com/Cespial/evaluador-franquicias) | Evaluador automatizado de submissions del challenge Franchise API | Python |
-| [seminario-ia-plataforma](https://github.com/Cespial/seminario-ia-plataforma) | Plataforma web para seminario de Inteligencia Artificial | — |
+### 🎓 Education & Technical Exercises
 
----
+- ☕ [ms-franchise-neg-main](https://github.com/Cespial/ms-franchise-neg-main) - Reactive microservice — Hexagonal Architecture + Spring WebFlux + R2DBC + AWS ECS
+- ✅ [evaluador-franquicias](https://github.com/Cespial/evaluador-franquicias) - Automated submission evaluator for the Franchise API challenge
+- 🧠 [seminario-ia-plataforma](https://github.com/Cespial/seminario-ia-plataforma) - Web platform for an AI seminar
 
-## Landing Pages | Diseno
+### 🎨 Landing Pages & Design
 
-| Repositorio | Descripcion | Stack |
-|---|---|---|
-| [Vortice](https://github.com/Cespial/Vortice) | VORTICE — Joyeria escultorica, Industrial Dark Luxury | HTML |
-| [techos-espinal-landing](https://github.com/Cespial/techos-espinal-landing) | Tu Pagina en 48 — diseno web express en Colombia | Next.js, Framer Motion |
-| [Modern-Product-Launch-Community](https://github.com/Cespial/Modern-Product-Launch-Community) | Template moderno de landing page de lanzamiento | — |
-
----
-
-## Personal
-
-| Repositorio | Descripcion |
-|---|---|
-| [cespial.github.io](https://github.com/Cespial/cespial.github.io) | Portafolio personal — GitHub Pages |
+- 💎 [Vortice](https://github.com/Cespial/Vortice) - VORTICE — Sculptural jewelry, Industrial Dark Luxury landing
+- ⚡ [techos-espinal-landing](https://github.com/Cespial/techos-espinal-landing) - Tu Pagina en 48 — express web design service in Colombia
+- 🚀 [Modern-Product-Launch-Community](https://github.com/Cespial/Modern-Product-Launch-Community) - Modern product launch landing page template
 
 ---
 
 <p align="center">
-  <i>Proyectos organizados por <a href="https://github.com/Cespial?tab=repositories">topics</a> en GitHub para facil filtrado.</i>
+  <i>All repos tagged with <a href="https://github.com/Cespial?tab=repositories">topics</a> for easy filtering: <code>research-eafit</code> · <code>observatorio</code> · <code>facturacion</code> · <code>consultoria</code> · <code>educacion</code> · <code>landing-page</code></i>
 </p>
