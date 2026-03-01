@@ -1,6 +1,6 @@
 # Hi, I'm Cristian 👋
 
-📍 Medellin, Colombia | 🏗️ Builder at [fourier.dev](https://fourier.dev) | 🛰️ Remote Sensing Researcher
+📍 Medellin, Colombia | 🏗️ Builder at [fourier.dev](https://fourier.dev) | 🛰️ Remote Sensing Researcher | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cespial/)
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -78,7 +78,7 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 
 ### 🛡️ Personal
 
-- 🌐 [cespial.github.io](https://github.com/Cespial/cespial.github.io) - Personal portfolio — GitHub Pages
+- 🌐 [cespial.github.io](https://github.com/Cespial/cespial.github.io) - Personal portfolio — [cespial.github.io](https://cespial.github.io)
 
 ---
 
