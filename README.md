@@ -66,3 +66,4 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 <p align="center">
   <i>All repos tagged with <a href="https://github.com/Cespial?tab=repositories">topics</a> for easy filtering: <code>research-eafit</code> · <code>observatorio</code> · <code>facturacion</code> · <code>consultoria</code> · <code>educacion</code> · <code>landing-page</code></i>
 </p>
+<!-- profile-readme -->
