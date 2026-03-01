@@ -15,6 +15,8 @@
 
 > Building data platforms, territorial observatories, and geospatial research tools for Colombia. Combining satellite imagery, AI, and full-stack development to solve real problems at the municipal scale.
 
+🌐 [fourier.dev](https://fourier.dev) (closed source) — studio site & portfolio
+
 ---
 
 ### 🛰️ Research — EAFIT
@@ -40,8 +42,8 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 
 ### 🔭 Observatories & Territorial Data
 
-- 🏙️ [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) - City Observatory for Apartado — 55 tables, 123K+ records, 16 official sources (FastAPI + React + Deck.gl + PostGIS)
-- 🏛️ [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) - Legislative observatory for Medellin's City Council — initiatives & thematic analysis
+- 🏙️ [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) - City Observatory for Apartado — 55 tables, 123K+ records, 16 official sources — [observatorio-apartado.vercel.app](https://observatorio-apartado.vercel.app)
+- 🏛️ [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) - Legislative observatory for Medellin's City Council — [observatorio-concejo-medellin.vercel.app](https://observatorio-concejo-medellin.vercel.app)
 - 💼 [marinilla_empleos](https://github.com/Cespial/marinilla_empleos) - Multi-source job scraper for 23 municipalities, 8 sources (Computrabajo, LinkedIn, SENA...)
 
 ### 💰 Invoicing & Accounting
@@ -54,23 +56,29 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 
 ### 🏛️ Consulting & Institutional Projects
 
-- 📋 [mga-estructurador](https://github.com/Cespial/mga-estructurador) - MGA project structuring platform for government grants
-- 🎓 [vfpa-jic](https://github.com/Cespial/vfpa-jic) - Financial viability tool for academic programs — Politecnico JIC
-- 🧮 [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) - Tax SuperApp — 26 calculators, AI, fiscal calendar, indicators & glossary
+- 📋 [mga-estructurador](https://github.com/Cespial/mga-estructurador) - MGA project structuring platform for government grants — [mga-estructurador.vercel.app](https://mga-estructurador.vercel.app)
+- 🎓 [vfpa-jic](https://github.com/Cespial/vfpa-jic) - Financial viability tool for academic programs — Politecnico JIC — [vfpa-jic.vercel.app](https://vfpa-jic.vercel.app)
+- 🧮 [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) - Tax SuperApp — 26 calculators, AI, fiscal calendar — [superapp-tributaria-colombia.vercel.app](https://superapp-tributaria-colombia.vercel.app)
 - 📈 [IUPB](https://github.com/Cespial/IUPB) - Institutional analytics — SNIES, Saber Pro/TyT, dropout & academic supply (R)
-- 📍 [hptu-localizacion](https://github.com/Cespial/hptu-localizacion) - HPTU site selection study — MCDA analysis with 2.6M+ records & interactive maps
+- 📍 [hptu-localizacion](https://github.com/Cespial/hptu-localizacion) - HPTU site selection study — MCDA analysis with 2.6M+ records — [hptu-localizacion.vercel.app](https://hptu-localizacion.vercel.app)
+- 🗳️ lilianarectora.co (closed source) - Institutional campaign platform — Pascual Bravo — [lilianarectora.co](https://lilianarectora.co)
 
 ### 🎓 Education & Technical Exercises
 
 - ☕ [ms-franchise-neg-main](https://github.com/Cespial/ms-franchise-neg-main) - Reactive microservice — Hexagonal Architecture + Spring WebFlux + R2DBC + AWS ECS
 - ✅ [evaluador-franquicias](https://github.com/Cespial/evaluador-franquicias) - Automated submission evaluator for the Franchise API challenge
-- 🧠 [seminario-ia-plataforma](https://github.com/Cespial/seminario-ia-plataforma) - Web platform for an AI seminar
+- 🧠 [seminario-ia-plataforma](https://github.com/Cespial/seminario-ia-plataforma) - Web platform for an AI seminar — [seminario-ia-plataforma.vercel.app](https://seminario-ia-plataforma.vercel.app)
 
 ### 🎨 Landing Pages & Design
 
-- 💎 [Vortice](https://github.com/Cespial/Vortice) - VORTICE — Sculptural jewelry, Industrial Dark Luxury landing
-- ⚡ [techos-espinal-landing](https://github.com/Cespial/techos-espinal-landing) - Tu Pagina en 48 — express web design service in Colombia
+- 💎 [Vortice](https://github.com/Cespial/Vortice) - VORTICE — Sculptural jewelry, Industrial Dark Luxury — [vortice-jewelry.vercel.app](https://vortice-jewelry.vercel.app)
+- ⚡ [techos-espinal-landing](https://github.com/Cespial/techos-espinal-landing) - Tu Pagina en 48 — express web design service — [tupaginaen48.com](https://tupaginaen48.com)
 - 🚀 [Modern-Product-Launch-Community](https://github.com/Cespial/Modern-Product-Launch-Community) - Modern product launch landing page template
+- 🍫 marronreposteria.com (closed source) - Bakery & pastry shop landing — [marronreposteria.com](https://marronreposteria.com)
+
+### 🛡️ Personal
+
+- 🌐 [cespial.github.io](https://github.com/Cespial/cespial.github.io) - Personal portfolio — GitHub Pages
 
 ---
 
