@@ -17,24 +17,22 @@
 
 🌐 [fourier.dev](https://fourier.dev) (closed source) — studio site & portfolio
 
+### Currently working on
+
+- 🌊 [colombia-flood-risk](https://github.com/Cespial/colombia-flood-risk) - Flood risk mapping across 7 Colombian departments with Sentinel-1 SAR + Ensemble ML
+- 🧮 [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) - Tax SuperApp — 26 calculators, AI, fiscal calendar — [superapp-tributaria-colombia.vercel.app](https://superapp-tributaria-colombia.vercel.app)
+- 📋 [mga-estructurador](https://github.com/Cespial/mga-estructurador) - MGA project structuring platform for government grants — [mga-estructurador.vercel.app](https://mga-estructurador.vercel.app)
+- 🏙️ [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) - City Observatory for Apartado — 55 tables, 123K+ records — [observatorio-apartado.vercel.app](https://observatorio-apartado.vercel.app)
+- 🏛️ [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) - Legislative observatory for Medellin's City Council — [observatorio-concejo-medellin.vercel.app](https://observatorio-concejo-medellin.vercel.app)
+- 🏢 [declaraciones_ICA](https://github.com/Cespial/declaraciones_ICA) - ICA tax declarations with AI-powered rate extraction — Next.js + Claude API
+
 ---
 
 ### 🛰️ Research — EAFIT
 
 Academic papers + Google Earth Engine pipelines on land use change, deforestation, and mining detection in post-conflict Colombia.
 
-**Flood Risk Mapping (Sentinel-1 SAR + Ensemble ML)**
-
-- 🌊 [antioquia-flood-risk](https://github.com/Cespial/antioquia-flood-risk) - Antioquia — municipality-scale flood risk mapping (2015–2025)
-- 🌊 [bolivar-flood-risk](https://github.com/Cespial/bolivar-flood-risk) - Bolivar — municipality-scale flood risk mapping (2015–2025)
-- 🌊 [cauca-flood-risk](https://github.com/Cespial/cauca-flood-risk) - Cauca — municipality-scale flood risk mapping (2015–2025)
-- 🌊 [choco-flood-risk](https://github.com/Cespial/choco-flood-risk) - Choco — municipality-scale flood risk mapping (2015–2025)
-- 🌊 [narino-flood-risk](https://github.com/Cespial/narino-flood-risk) - Narino — municipality-scale flood risk mapping (2015–2025)
-- 🌊 [magdalena_flood_risk_research](https://github.com/Cespial/magdalena_flood_risk_research) - Magdalena — municipality-scale flood risk mapping (2015–2025)
-- 🏜️ [guajira-flood-risk](https://github.com/Cespial/guajira-flood-risk) - La Guajira — arid/semi-arid adaptation with Sand Exclusion Layer
-
-**Land Use Change & Mining Detection**
-
+- 🌊 [colombia-flood-risk](https://github.com/Cespial/colombia-flood-risk) - Municipality-scale flood risk mapping across 7 departments (Antioquia, Bolivar, Cauca, Choco, Guajira, Magdalena, Narino) — Sentinel-1 SAR + Ensemble ML (2015–2025)
 - 🌿 [magdalena_medio_research](https://github.com/Cespial/magdalena_medio_research) - Post-conflict LULC transitions & ecosystem services loss in Magdalena Medio
 - 🌴 [uraba_research](https://github.com/Cespial/uraba_research) - Post-conflict land use transitions in Uraba, Antioquia
 - 🪵 [bajo_cauca_research](https://github.com/Cespial/bajo_cauca_research) - Mining-driven deforestation in Bajo Cauca, Antioquia
@@ -51,8 +49,6 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 - 📊 [factura-app](https://github.com/Cespial/factura-app) - SaaS dashboard for Colombian electronic invoicing (Next.js + Supabase)
 - 🏢 [declaraciones_ICA](https://github.com/Cespial/declaraciones_ICA) - ICA tax declarations with AI-powered rate extraction (Next.js + Claude API)
 - 🔍 [Mi_OCR_Facturas](https://github.com/Cespial/Mi_OCR_Facturas) - Automated invoice data extraction with Claude Vision → structured Excel
-- 🧾 [swift-receipt-vision-main](https://github.com/Cespial/swift-receipt-vision-main) - FacturaAI landing page — AI invoice extraction
-- 🤖 [auxiliar-contable-digital-main](https://github.com/Cespial/auxiliar-contable-digital-main) - Miauxi landing — AI-powered digital accounting assistant
 
 ### 🏛️ Consulting & Institutional Projects
 
@@ -81,6 +77,11 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 - 🌐 [cespial.github.io](https://github.com/Cespial/cespial.github.io) - Personal portfolio — [cespial.github.io](https://cespial.github.io)
 
 ---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Cespial&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cespial&layout=compact&theme=default&hide_border=true&langs_count=8" alt="Top Languages" height="165" />
+</p>
 
 <p align="center">
   <i>All repos tagged with <a href="https://github.com/Cespial?tab=repositories">topics</a> for easy filtering: <code>research-eafit</code> · <code>flood-risk</code> · <code>observatorio</code> · <code>facturacion</code> · <code>consultoria</code> · <code>educacion</code> · <code>landing-page</code></i>
