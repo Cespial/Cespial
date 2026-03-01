@@ -42,6 +42,7 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 
 - 🏙️ [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) - City Observatory for Apartado — 55 tables, 123K+ records, 16 official sources — [observatorio-apartado.vercel.app](https://observatorio-apartado.vercel.app)
 - 🏛️ [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) - Legislative observatory for Medellin's City Council — [observatorio-concejo-medellin.vercel.app](https://observatorio-concejo-medellin.vercel.app)
+- 🌐 [gemelo-digital-uraba](https://github.com/Cespial/gemelo-digital-uraba) - Gemelo Digital Logistico — Uraba Banana Belt — Sprint 0 MVP
 - 💼 [marinilla_empleos](https://github.com/Cespial/marinilla_empleos) - Multi-source job scraper for 23 municipalities, 8 sources (Computrabajo, LinkedIn, SENA...)
 
 ### 💰 Invoicing & Accounting
@@ -50,7 +51,7 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 - 🏢 [declaraciones_ICA](https://github.com/Cespial/declaraciones_ICA) - ICA tax declarations with AI-powered rate extraction (Next.js + Claude API)
 - 🔍 [Mi_OCR_Facturas](https://github.com/Cespial/Mi_OCR_Facturas) - Automated invoice data extraction with Claude Vision → structured Excel
 
-### 🏛️ Consulting & Institutional Projects
+### 📂 Consulting & Institutional Projects
 
 - 📋 [mga-estructurador](https://github.com/Cespial/mga-estructurador) - MGA project structuring platform for government grants — [mga-estructurador.vercel.app](https://mga-estructurador.vercel.app)
 - 🎓 [vfpa-jic](https://github.com/Cespial/vfpa-jic) - Financial viability tool for academic programs — Politecnico JIC — [vfpa-jic.vercel.app](https://vfpa-jic.vercel.app)
@@ -63,7 +64,6 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 
 - ☕ [ms-franchise-neg-main](https://github.com/Cespial/ms-franchise-neg-main) - Reactive microservice — Hexagonal Architecture + Spring WebFlux + R2DBC + AWS ECS
 - ✅ [evaluador-franquicias](https://github.com/Cespial/evaluador-franquicias) - Automated submission evaluator for the Franchise API challenge
-- 🧠 [seminario-ia-plataforma](https://github.com/Cespial/seminario-ia-plataforma) - Web platform for an AI seminar — [seminario-ia-plataforma.vercel.app](https://seminario-ia-plataforma.vercel.app)
 
 ### 🎨 Landing Pages & Design
 
@@ -72,7 +72,7 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 - 🚀 [Modern-Product-Launch-Community](https://github.com/Cespial/Modern-Product-Launch-Community) - Modern product launch landing page template
 - 🍫 marronreposteria.com (closed source) - Bakery & pastry shop landing — [marronreposteria.com](https://marronreposteria.com)
 
-### 🛡️ Personal
+### 👤 Personal
 
 - 🌐 [cespial.github.io](https://github.com/Cespial/cespial.github.io) - Personal portfolio — [cespial.github.io](https://cespial.github.io)
 
