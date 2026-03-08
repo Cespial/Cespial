@@ -1,6 +1,6 @@
 # Hi, I'm Cristian 👋
 
-📍 Medellin, Colombia | 🏗️ Builder at [fourier.dev](https://fourier.dev), [tribai.co](https://tribai.co) & [inplux.co](https://inplux.co) | 🛰️ Remote Sensing Researcher | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cespial/)
+📍 Medellin, Colombia | 🏗️ Builder at [fourier.dev](https://fourier.dev), [tribai.co](https://tribai.co), [gobia.co](https://gobia.co) & [inplux.co](https://inplux.co) | 🛰️ Remote Sensing Researcher | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cespial/)
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
