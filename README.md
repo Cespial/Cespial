@@ -1,6 +1,6 @@
 # Hi, I'm Cristian 👋
 
-📍 Medellin, Colombia | 🏗️ Builder at [fourier.dev](https://fourier.dev), [tribai.co](https://tribai.co), [gobia.co](https://gobia.co) & [inplux.co](https://inplux.co) | 🛰️ Remote Sensing Researcher | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cespial/)
+📍 Medellín, Colombia | 🏗️ Builder at [fourier.dev](https://fourier.dev), [tribai.co](https://tribai.co), [gobia.co](https://gobia.co) & [inplux.co](https://inplux.co) | 🛰️ Remote Sensing Researcher | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cespial/)
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -12,6 +12,8 @@
 ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
 ![PostGIS](https://img.shields.io/badge/-PostGIS-336791?style=flat&logo=postgresql&logoColor=white)
+![Mapbox](https://img.shields.io/badge/-Mapbox-000?style=flat&logo=mapbox&logoColor=white)
+![Deck.gl](https://img.shields.io/badge/-Deck.gl-00A9E0?style=flat)
 
 > Building data platforms, territorial observatories, and geospatial research tools for Colombia. Combining satellite imagery, AI, and full-stack development to solve real problems at the municipal scale.
 
@@ -19,11 +21,14 @@
 
 ### Currently working on
 
+- 🎓 [sie-medellin](https://github.com/Cespial/sie-medellin) - Sistema de Inteligencia Educativa — Secretaría de Educación de Medellín — Deck.gl + MapLibre + Python ETL pipeline
+- 🧮 [tribai](https://github.com/Cespial/tribai) - SuperApp Tributaria Colombia — 35 calculadoras fiscales, asistente IA RAG (1,294 arts. Estatuto Tributario), doctrina DIAN, calendario 2026, app iOS — [tribai.co](https://tribai.co)
+- 🌊 [vigia-cordoba](https://github.com/Cespial/vigia-cordoba) - Sistema de Alertas Tempranas para inundaciones en Córdoba — 30 municipios, datos IDEAM, ENSO, UNGRD — Mapbox GL + Vitest
 - 🌊 [colombia-flood-risk](https://github.com/Cespial/colombia-flood-risk) - Flood risk mapping across 7 Colombian departments with Sentinel-1 SAR + Ensemble ML
-- 🧮 [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) - Tax SuperApp — 35 calculators, RAG AI assistant, iOS app, doctrina DIAN — [superapp-tributaria-colombia.vercel.app](https://superapp-tributaria-colombia.vercel.app)
+- 🏛️ [gobia](https://github.com/Cespial/gobia) - Publia.co — plataforma GovTech para el sector público colombiano — [gobia.co](https://gobia.co)
 - 📋 [mga-estructurador](https://github.com/Cespial/mga-estructurador) - MGA project structuring platform for government grants — [mga-estructurador.vercel.app](https://mga-estructurador.vercel.app)
-- 🏙️ [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) - City Observatory for Apartado — 55 tables, 123K+ records — [observatorio-apartado.vercel.app](https://observatorio-apartado.vercel.app)
-- 🏛️ [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) - Legislative observatory for Medellin's City Council — [observatorio-concejo-medellin.vercel.app](https://observatorio-concejo-medellin.vercel.app)
+- 🏙️ [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) - City Observatory for Apartadó — 55 tables, 123K+ records — [observatorio-apartado.vercel.app](https://observatorio-apartado.vercel.app)
+- 🏛️ [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) - Legislative observatory for Medellín's City Council — [observatorio-concejo-medellin.vercel.app](https://observatorio-concejo-medellin.vercel.app)
 - 🏢 [declaraciones_ICA](https://github.com/Cespial/declaraciones_ICA) - ICA tax declarations with AI-powered rate extraction — Next.js + Claude API
 
 ---
@@ -32,17 +37,21 @@
 
 Academic papers + Google Earth Engine pipelines on land use change, deforestation, and mining detection in post-conflict Colombia.
 
-- 🌊 [colombia-flood-risk](https://github.com/Cespial/colombia-flood-risk) - Municipality-scale flood risk mapping across 7 departments (Antioquia, Bolivar, Cauca, Choco, Guajira, Magdalena, Narino) — Sentinel-1 SAR + Ensemble ML (2015–2025)
+- 🌊 [colombia-flood-risk](https://github.com/Cespial/colombia-flood-risk) - Municipality-scale flood risk mapping across 7 departments (Antioquia, Bolívar, Cauca, Chocó, Guajira, Magdalena, Nariño) — Sentinel-1 SAR + Ensemble ML (2015–2025)
+  - [antioquia-flood-risk](https://github.com/Cespial/antioquia-flood-risk) · [bolivar-flood-risk](https://github.com/Cespial/bolivar-flood-risk) · [cauca-flood-risk](https://github.com/Cespial/cauca-flood-risk) · [choco-flood-risk](https://github.com/Cespial/choco-flood-risk) · [guajira-flood-risk](https://github.com/Cespial/guajira-flood-risk) · [magdalena_flood_risk_research](https://github.com/Cespial/magdalena_flood_risk_research) · [narino-flood-risk](https://github.com/Cespial/narino-flood-risk)
 - 🌿 [magdalena_medio_research](https://github.com/Cespial/magdalena_medio_research) - Post-conflict LULC transitions & ecosystem services loss in Magdalena Medio
-- 🌴 [uraba_research](https://github.com/Cespial/uraba_research) - Post-conflict land use transitions in Uraba, Antioquia
+- 🌴 [uraba_research](https://github.com/Cespial/uraba_research) - Post-conflict land use transitions in Urabá, Antioquia
 - 🪵 [bajo_cauca_research](https://github.com/Cespial/bajo_cauca_research) - Mining-driven deforestation in Bajo Cauca, Antioquia
 - ⛏️ [minerio_magdalena_medio](https://github.com/Cespial/minerio_magdalena_medio) - Satellite detection of artisanal gold mining (ASGM)
+- 📐 [spatial_econometrics](https://github.com/Cespial/spatial_econometrics) - Spatial econometrics exercises & notes (SAR, SEM, GWR, Moran's I)
 
 ### 🔭 Observatories & Territorial Data
 
-- 🏙️ [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) - City Observatory for Apartado — 55 tables, 123K+ records, 16 official sources — [observatorio-apartado.vercel.app](https://observatorio-apartado.vercel.app)
-- 🏛️ [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) - Legislative observatory for Medellin's City Council — [observatorio-concejo-medellin.vercel.app](https://observatorio-concejo-medellin.vercel.app)
-- 🌐 [gemelo-digital-uraba](https://github.com/Cespial/gemelo-digital-uraba) - Gemelo Digital Logistico — Uraba Banana Belt — Sprint 0 MVP
+- 🎓 [sie-medellin](https://github.com/Cespial/sie-medellin) - Sistema de Inteligencia Educativa — Secretaría de Educación de Medellín — dashboard interactivo con Deck.gl + pipeline ETL Python
+- 🏙️ [observatorio-laboral-uraba](https://github.com/Cespial/observatorio-laboral-uraba) - City Observatory for Apartadó — 55 tables, 123K+ records, 16 official sources — [observatorio-apartado.vercel.app](https://observatorio-apartado.vercel.app)
+- 🏛️ [observatorio-concejo-medellin](https://github.com/Cespial/observatorio-concejo-medellin) - Legislative observatory for Medellín's City Council — [observatorio-concejo-medellin.vercel.app](https://observatorio-concejo-medellin.vercel.app)
+- 🌐 [gemelo-digital-uraba](https://github.com/Cespial/gemelo-digital-uraba) - Gemelo Digital Logístico — Urabá Banana Belt — Sprint 0 MVP
+- 🌊 [vigia-cordoba](https://github.com/Cespial/vigia-cordoba) - Sistema de Alertas Tempranas — monitoreo de inundaciones en Córdoba con datos IDEAM, ENSO, UNGRD
 - 💼 [marinilla_empleos](https://github.com/Cespial/marinilla_empleos) - Multi-source job scraper for 23 municipalities, 8 sources (Computrabajo, LinkedIn, SENA...)
 
 ### 💰 Invoicing & Accounting
@@ -54,23 +63,30 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 ### 📂 Consulting & Institutional Projects
 
 - 📋 [mga-estructurador](https://github.com/Cespial/mga-estructurador) - MGA project structuring platform for government grants — [mga-estructurador.vercel.app](https://mga-estructurador.vercel.app)
-- 🎓 [vfpa-jic](https://github.com/Cespial/vfpa-jic) - Financial viability tool for academic programs — Politecnico JIC — [vfpa-jic.vercel.app](https://vfpa-jic.vercel.app)
-- 🧮 [superapp-tributaria-colombia](https://github.com/Cespial/superapp-tributaria-colombia) - Tax SuperApp — 35 calculators, RAG AI assistant, iOS app, doctrina DIAN — [superapp-tributaria-colombia.vercel.app](https://superapp-tributaria-colombia.vercel.app)
+- 🧮 [tribai](https://github.com/Cespial/tribai) - SuperApp Tributaria Colombia — 35 calculadoras, asistente RAG, app iOS, doctrina DIAN — [tribai.co](https://tribai.co)
+- 🎓 [vfpa-jic](https://github.com/Cespial/vfpa-jic) - Financial viability tool for academic programs — Politécnico JIC — [vfpa-jic.vercel.app](https://vfpa-jic.vercel.app)
 - 📈 [IUPB](https://github.com/Cespial/IUPB) - Institutional analytics — SNIES, Saber Pro/TyT, dropout & academic supply (R)
 - 📍 [hptu-localizacion](https://github.com/Cespial/hptu-localizacion) - HPTU site selection study — MCDA analysis with 2.6M+ records — [hptu-localizacion.vercel.app](https://hptu-localizacion.vercel.app)
 - 🗳️ lilianarectora.co (closed source) - Institutional campaign platform — Pascual Bravo — [lilianarectora.co](https://lilianarectora.co)
+- 🏛️ [gobia](https://github.com/Cespial/gobia) - Publia.co — GovTech platform for Colombian public sector — [gobia.co](https://gobia.co)
 
 ### 🎓 Education & Technical Exercises
 
+- 🤖 [seminario-ia-plataforma](https://github.com/Cespial/seminario-ia-plataforma) - Web platform for AI seminar — course materials & interactive tools
 - ☕ [ms-franchise-neg-main](https://github.com/Cespial/ms-franchise-neg-main) - Reactive microservice — Hexagonal Architecture + Spring WebFlux + R2DBC + AWS ECS
 - ✅ [evaluador-franquicias](https://github.com/Cespial/evaluador-franquicias) - Automated submission evaluator for the Franchise API challenge
 
 ### 🎨 Landing Pages & Design
 
-- 💎 [Vortice](https://github.com/Cespial/Vortice) - VORTICE — Sculptural jewelry, Industrial Dark Luxury — [vortice-jewelry.vercel.app](https://vortice-jewelry.vercel.app)
-- ⚡ [techos-espinal-landing](https://github.com/Cespial/techos-espinal-landing) - Tu Pagina en 48 — express web design service — [tupaginaen48.com](https://tupaginaen48.com)
+- 💎 [Vortice](https://github.com/Cespial/Vortice) - VÓRTICE — Sculptural jewelry, Industrial Dark Luxury — [vortice-jewelry.vercel.app](https://vortice-jewelry.vercel.app)
+- ⚡ [techos-espinal-landing](https://github.com/Cespial/techos-espinal-landing) - Tu Página en 48 — express web design service — [tupaginaen48.com](https://tupaginaen48.com)
 - 🚀 [Modern-Product-Launch-Community](https://github.com/Cespial/Modern-Product-Launch-Community) - Modern product launch landing page template
 - 🍫 marronreposteria.com (closed source) - Bakery & pastry shop landing — [marronreposteria.com](https://marronreposteria.com)
+- 🌐 [inplux-web](https://github.com/Cespial/inplux-web) - INPLUX HUB — tech ecosystem landing — [inplux.co](https://inplux.co)
+
+### 🧪 Experimental
+
+- 🧠 [aun-humanos](https://github.com/Cespial/aun-humanos) - Exploratory web project — Next.js 16 + TypeScript + Tailwind CSS
 
 ### 👤 Personal
 
@@ -84,5 +100,5 @@ Academic papers + Google Earth Engine pipelines on land use change, deforestatio
 </p>
 
 <p align="center">
-  <i>All repos tagged with <a href="https://github.com/Cespial?tab=repositories">topics</a> for easy filtering: <code>research-eafit</code> · <code>flood-risk</code> · <code>observatorio</code> · <code>facturacion</code> · <code>consultoria</code> · <code>educacion</code> · <code>landing-page</code></i>
+  <i>All repos tagged with <a href="https://github.com/Cespial?tab=repositories">topics</a> for easy filtering: <code>research-eafit</code> · <code>flood-risk</code> · <code>observatorio</code> · <code>facturacion</code> · <code>consultoria</code> · <code>educacion</code> · <code>landing-page</code> · <code>govtech</code></i>
 </p>
