@@ -26,12 +26,9 @@
 ### Currently working on
 
 - 🧮 [tribai](https://github.com/Cespial/tribai) — SuperApp Tributaria Colombia — 40 calculadoras fiscales, asistente IA RAG (1,294 arts. ET + doctrina DIAN + jurisprudencia), 4 tonos, Cmd+K federado — [tribai.co](https://tribai.co)
-- 🎓 [sie-medellin](https://github.com/Cespial/sie-medellin) — Sistema de Inteligencia Educativa — Secretaría de Educación de Medellín — Deck.gl + MapLibre + Python ETL pipeline
 - 🏛️ [gobia](https://github.com/Cespial/gobia) — Plataforma GovTech de contratación inteligente para el sector público colombiano — [gobia.co](https://gobia.co)
-- 🌊 [colombia-flood-risk](https://github.com/Cespial/colombia-flood-risk) — Flood risk mapping across 7 Colombian departments with Sentinel-1 SAR + Ensemble ML
-- 🌊 [vigia-cordoba](https://github.com/Cespial/vigia-cordoba) — Sistema de Alertas Tempranas para inundaciones en Córdoba — 30 municipios, datos IDEAM, ENSO, UNGRD
+- ⚖️ kelsen (closed source) — La IA Legal de Colombia — RAG + BM25 sobre 1.47M chunks de normatividad colombiana
 - 📐 [cognitive-factor-economics](https://github.com/Cespial/cognitive-factor-economics) — CFE research program — augmented human capital theory + CONPES 4144 policy evaluation
-- 🗺️ [cartografia-colombia](https://github.com/Cespial/cartografia-colombia) — Mapa interactivo del estado catastral de 1,122 municipios — [cartografia-colombia.vercel.app](https://cartografia-colombia.vercel.app)
 
 ---
 
@@ -106,9 +103,6 @@ Papers, research programs, and Google Earth Engine pipelines on AI economics, la
 - 🍫 marronreposteria.com (closed source) — Bakery & pastry shop landing — [marronreposteria.com](https://marronreposteria.com)
 - 🌐 [inplux-web](https://github.com/Cespial/inplux-web) — INPLUX HUB — tech ecosystem landing — [inplux.co](https://inplux.co)
 - 🌐 [redek-web](https://github.com/Cespial/redek-web) — REDEK consulting site — [redek-web.vercel.app](https://redek-web.vercel.app)
-
-### 🧪 Experimental
-
 - 🧠 [aun-humanos](https://github.com/Cespial/aun-humanos) — Exploratory web project on the human condition in the AI era — [aun-humanos.vercel.app](https://aun-humanos.vercel.app)
 
 ### 👤 Personal
