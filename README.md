@@ -23,24 +23,6 @@
 
 ---
 
-### 📄 Publications
-
-| Year | Paper | Venue |
-|------|-------|-------|
-| 2026 | **Augmented Human Capital: A Unified Theory and LLM-Based Measurement Framework for Cognitive Factor Decomposition in AI-Augmented Economies** | [arXiv:2604.01066](https://arxiv.org/abs/2604.01066) |
-| 2026 | **Does Colombia's AI Policy Target Augmentation or Automation? Evaluating CONPES 4144 Through the Lens of Cognitive Factor Economics** | Under submission |
-| 2026 | **RAG as Epistemic Safeguard: A Procedural Justice Framework for AI-Assisted Adjudication in Civil Law Systems** (w/ Lozada Pimiento, Jiménez-Builes, Restrepo Carmona) | Submitted to Elsevier |
-| 2026 | **Municipality-Scale Flood Risk Mapping in Antioquia, Colombia, Using Sentinel-1 SAR and Ensemble ML (2015–2025)** (w/ Jiménez Londoño) | [SSRN 6321538](https://doi.org/10.2139/ssrn.6321538) |
-| 2026 | **Post-Conflict Land Use Transitions and Ecosystem Service Loss in Colombia's Magdalena Medio (2012-2024)** (w/ Jiménez) | [SSRN 6243099](https://doi.org/10.2139/ssrn.6243099) |
-| 2026 | **Who Controls the Clock? Correlates of Work Schedule Autonomy Among Formal Employees in Colombia** (w/ Jiménez Londoño) | [Zenodo](https://doi.org/10.5281/zenodo.18842930) |
-| 2024 | **Determinants of Workplace Flextime Flexibility: An Empirical Analysis** (w/ Jiménez Londoño) | [arXiv:2409.14271](https://arxiv.org/abs/2409.14271) |
-
-### 🧠 Research Programs
-
-- 📐 [cognitive-factor-economics](https://github.com/Cespial/cognitive-factor-economics) — **Cognitive Factor Economics (CFE)** — A research program on the economics of human-AI complementarity. Decomposes human capital into physical-manual (H^P), routine-cognitive (H^C), and augmentable-cognitive (H^A) components. N=105,517 workers, 440 occupations, 18,796 O*NET tasks.
-
----
-
 ### Currently working on
 
 - 🧮 [tribai](https://github.com/Cespial/tribai) — SuperApp Tributaria Colombia — 40 calculadoras fiscales, asistente IA RAG (1,294 arts. ET + doctrina DIAN + jurisprudencia), 4 tonos, Cmd+K federado — [tribai.co](https://tribai.co)
@@ -53,9 +35,25 @@
 
 ---
 
-### 🛰️ Research — EAFIT
+### 🛰️ Research — EAFIT · UNAL
 
-Academic papers + Google Earth Engine pipelines on land use change, deforestation, flood risk, and mining detection in post-conflict Colombia.
+Papers, research programs, and Google Earth Engine pipelines on AI economics, land use change, flood risk, legal AI, and mining detection in post-conflict Colombia.
+
+**Research Programs**
+
+- 📐 [cognitive-factor-economics](https://github.com/Cespial/cognitive-factor-economics) — **Cognitive Factor Economics (CFE)** — Economics of human-AI complementarity. H^P / H^C / H^A decomposition. N=105,517 workers, 440 occupations, 18,796 O*NET tasks.
+
+**Papers**
+
+- 📄 **Augmented Human Capital** — Unified theory + LLM measurement for cognitive factor decomposition — [arXiv:2604.01066](https://arxiv.org/abs/2604.01066)
+- 📄 **Does Colombia's AI Policy Target Augmentation or Automation?** — CONPES 4144 via CFE — Under submission
+- 📄 **RAG as Epistemic Safeguard** — Procedural justice framework for legal RAG (w/ Lozada Pimiento, Jiménez-Builes, Restrepo Carmona) — Submitted to Elsevier
+- 📄 **Flood Risk Mapping in Antioquia** — Sentinel-1 SAR + Ensemble ML, AUC=0.94 (w/ Jiménez Londoño) — [SSRN 6321538](https://doi.org/10.2139/ssrn.6321538)
+- 📄 **Post-Conflict LULCC in Magdalena Medio** — ~91 Tg C loss, GWR + CA-Markov (w/ Jiménez) — [SSRN 6243099](https://doi.org/10.2139/ssrn.6243099)
+- 📄 **Who Controls the Clock?** — Work schedule autonomy, N=21,960 (w/ Jiménez Londoño) — [Zenodo](https://doi.org/10.5281/zenodo.18842930)
+- 📄 **Determinants of Workplace Flextime Flexibility** (w/ Jiménez Londoño) — [arXiv:2409.14271](https://arxiv.org/abs/2409.14271)
+
+**GEE Pipelines & Repos**
 
 - 🌊 [colombia-flood-risk](https://github.com/Cespial/colombia-flood-risk) — Municipality-scale flood risk mapping across 7 departments (Antioquia, Bolívar, Cauca, Chocó, Guajira, Magdalena, Nariño) — Sentinel-1 SAR + Ensemble ML (2015–2025)
   - [antioquia-flood-risk](https://github.com/Cespial/antioquia-flood-risk) · [bolivar-flood-risk](https://github.com/Cespial/bolivar-flood-risk) · [cauca-flood-risk](https://github.com/Cespial/cauca-flood-risk) · [choco-flood-risk](https://github.com/Cespial/choco-flood-risk) · [guajira-flood-risk](https://github.com/Cespial/guajira-flood-risk) · [magdalena_flood_risk_research](https://github.com/Cespial/magdalena_flood_risk_research) · [narino-flood-risk](https://github.com/Cespial/narino-flood-risk)
