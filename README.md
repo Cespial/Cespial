@@ -19,7 +19,7 @@
 
 > Economist building data platforms, territorial observatories, and geospatial research tools for Colombia. Combining satellite imagery, AI, and full-stack development to solve real problems at the municipal scale. Founder of [Fourier](https://fourier.dev). Member of the [CIIID](https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000024473) research group (Minciencias-recognized).
 
-🌐 [cespial.github.io](https://cespial.github.io) — personal site & ecosystem graph
+🌐 [cespial.co](https://cespial.co) — personal site & ecosystem graph
 
 ---
 
