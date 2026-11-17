@@ -102,6 +102,69 @@ query($cursor: String) {
 }"""
 
 
+Q_DEPLOY_REPOS = """
+query($cursor: String) {
+  viewer {
+    repositories(first: 50, after: $cursor, ownerAffiliations: OWNER) {
+      pageInfo { hasNextPage endCursor }
+      nodes { id deployments { totalCount } }
+    }
+  }
+}"""
+
+Q_DEPLOYMENTS = """
+query($id: ID!, $cursor: String) {
+  node(id: $id) {
+    ... on Repository {
+      deployments(first: 100, after: $cursor) {
+        pageInfo { hasNextPage endCursor }
+        nodes { environment createdAt latestStatus { state } }
+      }
+    }
+  }
+}"""
+
+
+def production_deployments(token: str) -> dict:
+    """Successful deployments to a production environment, across owned repositories.
+
+    Failed builds are not counted. Environment names vary by host ("Production",
+    "Production - app-name"), so anything that starts with "production" counts.
+    """
+    count, projects, first = 0, 0, None
+    repo_cursor = None
+    while True:
+        page = gql(token, Q_DEPLOY_REPOS, {"cursor": repo_cursor})["viewer"]["repositories"]
+        for repo in page["nodes"]:
+            if not repo["deployments"]["totalCount"]:
+                continue
+            shipped, cursor = 0, None
+            while True:
+                batch = gql(token, Q_DEPLOYMENTS, {"id": repo["id"], "cursor": cursor})
+                batch = batch["node"]["deployments"]
+                for item in batch["nodes"]:
+                    environment = (item["environment"] or "").lower()
+                    status = (item["latestStatus"] or {}).get("state")
+                    if environment.startswith("production") and status == "SUCCESS":
+                        shipped += 1
+                        if first is None or item["createdAt"] < first:
+                            first = item["createdAt"]
+                if not batch["pageInfo"]["hasNextPage"]:
+                    break
+                cursor = batch["pageInfo"]["endCursor"]
+            count += shipped
+            projects += 1 if shipped else 0
+        if not page["pageInfo"]["hasNextPage"]:
+            break
+        repo_cursor = page["pageInfo"]["endCursor"]
+    if not count:
+        raise SystemExit(
+            "No production deployments came back. A fine-grained token needs the "
+            "'Deployments: read' permission as well as 'Metadata: read'."
+        )
+    return {"successful": count, "projects": projects, "since": first[:10]}
+
+
 def calendar(token: str, start: dt.date, end: dt.date) -> tuple[dict[str, int], int]:
     """Daily counts between two dates (at most one year apart) and the private total."""
     data = gql(
@@ -215,7 +278,9 @@ def collect(token: str, config: dict) -> dict:
             "public": viewer["public"]["totalCount"],
             "private": viewer["private"]["totalCount"],
         },
+        "deployments": production_deployments(token),
         "months": months,
+        "days": [window[date] for date in sorted(window)],
         "languages": [{"name": n, "share": s} for n, s in zip(names, shares)],
         "languages_excluded": sorted(excluded),
     }
@@ -282,6 +347,15 @@ def text(x, y, string, size, fill, weight=400, anchor="start") -> str:
     )
 
 
+# Marks fade up in sequence when the image loads. They start faint, not absent,
+# so a renderer that freezes the first frame still shows the full chart.
+MOTION = (
+    "@keyframes on{from{opacity:.22}}"
+    ".up,.mid{animation:on .6s ease-out both}"
+    "@media (prefers-reduced-motion:reduce){.up,.mid{animation:none}}"
+)
+
+
 def frame(height: int, theme: dict, title: str, description: str, body: list[str]) -> str:
     return "\n".join(
         [
@@ -290,6 +364,7 @@ def frame(height: int, theme: dict, title: str, description: str, body: list[str
             f'font-family="{FONT}">',
             f'<title id="t">{escape(title)}</title>',
             f'<desc id="d">{escape(description)}</desc>',
+            f"<style>{MOTION}</style>",
             f'<rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{height - 1}" rx="8" '
             f'fill="{theme["surface"]}" stroke="{theme["border"]}"/>',
             *body,
@@ -315,18 +390,25 @@ def pulse(stats: dict, theme: dict) -> str:
     body: list[str] = []
     repos = stats["repositories"]
 
+    shipped = stats["deployments"]
+    since = dt.date.fromisoformat(shipped["since"])
     tiles = [
-        (fmt(stats["contributions"]), "contributions", "in the last 12 months"),
-        (fmt(stats["active_days"]), "active days", f"of the last {stats['window_days']}"),
-        (fmt(stats["longest_streak"]), "days in a row", "longest streak"),
-        (fmt(repos["total"]), "repositories", f"{repos['public']} public · {repos['private']} private"),
+        (
+            fmt(shipped["successful"]),
+            "production deploys",
+            f"{shipped['projects']} projects since {MONTHS[since.month - 1]} {since.year}",
+            208,
+        ),
+        (fmt(stats["contributions"]), "contributions", "in the last 12 months", 172),
+        (fmt(stats["active_days"]), "active days", f"of the last {stats['window_days']}", 146),
+        (fmt(stats["longest_streak"]), "days in a row", "longest streak", 0),
     ]
-    column = (WIDTH - 2 * PAD) / len(tiles)
-    for index, (value, label, sub) in enumerate(tiles):
-        x = PAD + index * column
+    x = PAD
+    for value, label, sub, advance in tiles:
         body.append(text(x, 70, value, 40, theme["ink"], 600))
         body.append(text(x, 96, label, 15, theme["ink"], 600))
         body.append(text(x, 116, sub, 13, theme["ink2"]))
+        x += advance
 
     # Monthly columns: one series, so the title names it and no legend is needed.
     body.append(text(PAD, 160, "Contributions per month", 13, theme["ink2"], 600))
@@ -360,7 +442,7 @@ def pulse(stats: dict, theme: dict) -> str:
         body.append(
             f'<path d="M{x:.1f},{base} V{y + r:.1f} Q{x:.1f},{y:.1f} {x + r:.1f},{y:.1f} '
             f'H{x + bar - r:.1f} Q{x + bar:.1f},{y:.1f} {x + bar:.1f},{y + r:.1f} V{base} Z" '
-            f'fill="{theme["series"][0]}"/>'
+            f'fill="{theme["series"][0]}" class="up" style="animation-delay:{index * 45}ms"/>'
         )
         if index == peak_index:
             body.append(text(centre, y - 7, fmt(count), 12, theme["ink"], 600, "middle"))
@@ -374,6 +456,8 @@ def pulse(stats: dict, theme: dict) -> str:
     )
 
     description = (
+        f"{fmt(shipped['successful'])} successful production deployments across "
+        f"{shipped['projects']} projects since {long_date(shipped['since'])}. "
         f"{fmt(stats['contributions'])} contributions in the last 12 months, "
         f"{stats['private_share']}% of them in private repositories. "
         f"{stats['active_days']} active days of the last {stats['window_days']}. "
@@ -384,6 +468,48 @@ def pulse(stats: dict, theme: dict) -> str:
         + "."
     )
     return frame(height, theme, "GitHub activity, last 12 months", description, body)
+
+
+def wave(stats: dict, theme: dict) -> str:
+    """The year as a signal: one line per day, mirrored around a centre line.
+
+    Height follows the square root of the day's count so that one very busy day
+    does not flatten the rest. It is a picture of rhythm, not a chart to read
+    values from; the monthly chart carries the numbers.
+    """
+    height = 150
+    body: list[str] = []
+    days = stats["days"]
+    start = dt.date.fromisoformat(stats["window"]["from"])
+    left, right, centre, reach = PAD, WIDTH - PAD, 78, 34
+    slot = (right - left) / len(days)
+    peak = max(days) ** 0.5 or 1
+
+    body.append(text(PAD, 28, "The last 12 months, one line per day", 13, theme["ink2"], 600))
+    body.append(text(WIDTH - PAD, 28, "taller means a busier day", 12, theme["muted"], anchor="end"))
+
+    for index, count in enumerate(days):
+        x = left + slot * index
+        date = start + dt.timedelta(days=index)
+        if date.day == 1:
+            body.append(text(x, height - 14, MONTHS[date.month - 1], 12, theme["muted"]))
+        if count <= 0:
+            body.append(
+                f'<rect x="{x:.2f}" y="{centre - 0.5}" width="{slot * 0.66:.2f}" height="1" fill="{theme["axis"]}"/>'
+            )
+            continue
+        half = max(reach * count**0.5 / peak, 1.2)
+        body.append(
+            f'<rect x="{x:.2f}" y="{centre - half:.2f}" width="{slot * 0.66:.2f}" height="{half * 2:.2f}" '
+            f'rx="{slot * 0.33:.2f}" fill="{theme["series"][0]}" class="mid" '
+            f'style="animation-delay:{index * 3}ms"/>'
+        )
+
+    description = (
+        f"Daily activity over the last 12 months: {stats['active_days']} active days "
+        f"of {stats['window_days']}, {fmt(stats['contributions'])} contributions in total."
+    )
+    return frame(height, theme, "A year of work, day by day", description, body)
 
 
 def stack(stats: dict, theme: dict) -> str:
@@ -444,6 +570,7 @@ def stack(stats: dict, theme: dict) -> str:
 def render(stats: dict, out: Path) -> None:
     out.mkdir(parents=True, exist_ok=True)
     for name, theme in THEMES.items():
+        (out / f"wave-{name}.svg").write_text(wave(stats, theme), encoding="utf-8")
         (out / f"pulse-{name}.svg").write_text(pulse(stats, theme), encoding="utf-8")
         (out / f"stack-{name}.svg").write_text(stack(stats, theme), encoding="utf-8")
     (out / "stats.json").write_text(json.dumps(stats, indent=2) + "\n", encoding="utf-8")
@@ -464,7 +591,8 @@ def main() -> None:
         stats = collect(token, json.loads(CONFIG.read_text(encoding="utf-8")))
 
     render(stats, args.out)
-    print(json.dumps({k: v for k, v in stats.items() if k not in ("months", "languages")}, indent=2))
+    summary = {k: v for k, v in stats.items() if k not in ("months", "languages", "days")}
+    print(json.dumps(summary, indent=2))
     print("months:", ", ".join(f"{m['month'][5:]}={m['count']}" for m in stats["months"]))
     print("languages:", ", ".join(f"{l['name']} {l['share']}%" for l in stats["languages"]))
 

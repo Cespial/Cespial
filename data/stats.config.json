@@ -4,5 +4,28 @@
     "top": 5,
     "exclude": ["PostScript", "Rich Text Format"],
     "exclude_reason": "Generated documents, not source code."
-  }
+  },
+  "products": [
+    {
+      "slug": "tribai",
+      "url": "https://tribai.co",
+      "domain": "tribai.co",
+      "expect": "tributari",
+      "viewport_height": 1300
+    },
+    {
+      "slug": "kelsen",
+      "url": "https://kelsen.io",
+      "domain": "kelsen.io",
+      "expect": "jurídic",
+      "viewport_height": 900
+    },
+    {
+      "slug": "gobia",
+      "url": "https://gobia.co",
+      "domain": "gobia.co",
+      "expect": "municipal",
+      "viewport_height": 900
+    }
+  ]
 }
