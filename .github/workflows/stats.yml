@@ -1,11 +1,14 @@
 name: Profile statistics
 
-# Rebuilds the two cards shown in README.md and publishes them on the `stats`
+# Rebuilds the cards shown in README.md and publishes them on the `stats`
 # branch, so `main` does not collect a commit every day.
 #
-# Needs one secret, STATS_TOKEN: a fine-grained personal access token of the
-# account owner, read-only, "All repositories", permission "Metadata: read".
-# The script only ever outputs totals.
+# - Statistics need one secret, STATS_TOKEN: a fine-grained personal access
+#   token of the account owner, read-only, "All repositories", with the
+#   permissions "Metadata: read" and "Deployments: read". Only totals are output.
+# - Product cards need no secret: they are screenshots of the public sites.
+#
+# Whatever cannot be rebuilt on a given day keeps its last published version.
 #
 # There is deliberately no pull_request trigger: a fork must never be able to
 # run this with the secret.
@@ -31,21 +34,31 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Build the cards
-        id: build
+      - name: Start from the last published cards
+        run: |
+          mkdir dist
+          if git clone --quiet --depth 1 --branch stats \
+              "https://github.com/${GITHUB_REPOSITORY}.git" previous; then
+            cp previous/*.svg previous/*.json dist/ 2>/dev/null || true
+            rm -rf previous
+          fi
+
+      - name: Build the statistics cards
         env:
           STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
         run: |
           if [ -z "$STATS_TOKEN" ]; then
-            echo "::warning::STATS_TOKEN is not set; the cards keep their last published numbers."
-            echo "built=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::STATS_TOKEN is not set; the statistics keep their last published numbers."
             exit 0
           fi
           python3 scripts/build_stats.py --out dist
-          echo "built=true" >> "$GITHUB_OUTPUT"
+
+      - name: Build the product cards
+        run: |
+          python3 -m pip install --quiet "pillow==12.3.0"
+          python3 scripts/build_products.py --out dist
 
       - name: Publish to the stats branch
-        if: steps.build.outputs.built == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
