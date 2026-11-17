@@ -55,7 +55,7 @@ I work with coding agents running in parallel, mostly Claude Code. I choose the 
 
 I also measure what this technology does to work.
 
-- **The Delegation Divide** (with Santiago Jiménez Londoño). An open, preregistered index of how much work AI agents can take over. Across 146 countries, 35.2% of task time in employment is at least partly delegable. [arXiv:2610.30752](https://arxiv.org/abs/2610.30752) · [index](https://balamlabs.org/adi) · [code](https://github.com/Cespial/delegation-divide)
+- **The Delegation Divide** (with Santiago Jiménez Londoño). An open, preregistered index of how much work AI agents can take over. It covers 146 countries and finds that 35.2% of task time in world employment is at least partly delegable. [arXiv:2610.30752](https://arxiv.org/abs/2610.30752) · [index](https://balamlabs.org/adi) · [code](https://github.com/Cespial/delegation-divide)
 - **Augmented Human Capital.** A theory of which parts of a job AI augments, and a way to measure them with language models. [arXiv:2604.01066](https://arxiv.org/abs/2604.01066) · [code](https://github.com/Cespial/cognitive-factor-economics)
 - **Flood Risk Mapping in Antioquia** (with Santiago Jiménez Londoño). Satellite radar and machine learning to map flood risk municipality by municipality. [SSRN 6321538](https://doi.org/10.2139/ssrn.6321538) · [code](https://github.com/Cespial/colombia-flood-risk)
 
