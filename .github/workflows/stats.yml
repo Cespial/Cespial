@@ -1,0 +1,50 @@
+name: Profile statistics
+
+# Rebuilds the two cards shown in README.md and publishes them on the `stats`
+# branch, so `main` does not collect a commit every day.
+#
+# Needs one secret, STATS_TOKEN: a fine-grained personal access token of the
+# account owner, read-only, "All repositories", permission "Metadata: read".
+# The script only ever outputs totals.
+#
+# There is deliberately no pull_request trigger: a fork must never be able to
+# run this with the secret.
+
+on:
+  schedule:
+    - cron: "17 9 * * *" # 04:17 in Bogotá
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Build the cards
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python3 scripts/build_stats.py --out dist
+
+      - name: Publish to the stats branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+          git init --quiet --initial-branch=stats
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit --quiet --message "Update profile statistics"
+          git push --force --quiet \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" stats

@@ -1,0 +1,8 @@
+{
+  "login": "Cespial",
+  "languages": {
+    "top": 5,
+    "exclude": ["PostScript", "Rich Text Format"],
+    "exclude_reason": "Generated documents, not source code."
+  }
+}
