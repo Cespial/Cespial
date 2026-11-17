@@ -28,7 +28,7 @@ AI tax consultant for Colombia. It answers with the exact article of the tax cod
 
 [tribai.co](https://tribai.co)
 
-<br clear="left">
+<br clear="left"><br>
 
 <a href="https://kelsen.io"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cespial/Cespial/stats/product-kelsen-dark.svg"><img align="left" width="46%" src="https://raw.githubusercontent.com/Cespial/Cespial/stats/product-kelsen-light.svg" alt="Screenshot of kelsen.io, captured from the live site."></picture></a>
 
@@ -40,7 +40,7 @@ Legal AI for Colombia: research, document analysis and assistance over the count
 
 [kelsen.io](https://kelsen.io)
 
-<br clear="left">
+<br clear="left"><br>
 
 <a href="https://gobia.co"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cespial/Cespial/stats/product-gobia-dark.svg"><img align="left" width="46%" src="https://raw.githubusercontent.com/Cespial/Cespial/stats/product-gobia-light.svg" alt="Screenshot of gobia.co, captured from the live site."></picture></a>
 
@@ -52,7 +52,7 @@ GovTech platform for Colombian municipalities and departments. It connects fisca
 
 [gobia.co](https://gobia.co)
 
-<br clear="left">
+<br clear="left"><br>
 
 ## How I work
 
