@@ -22,7 +22,7 @@ I build with coding agents running in parallel, mostly Claude Code. I choose the
 
 ## In production
 
-| | |
+| Product | What it does |
 |---|---|
 | **[Tribai](https://tribai.co)** | AI tax consultant for Colombia. It answers with the exact article of the tax code, whether that article is in force, and a verified calculation. 40 calculators, 1,301 articles. |
 | **[Kelsen](https://kelsen.io)** | Legal AI for Colombia: research, document analysis and assistance over the country's body of law. 970K+ documents, 28K+ rulings, 7.0M indexed passages. |
