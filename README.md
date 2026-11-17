@@ -1,20 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cespial/Cespial/stats/wave-dark.svg">
-  <img src="https://raw.githubusercontent.com/Cespial/Cespial/stats/wave-light.svg" width="100%" alt="Daily activity over the last 12 months, drawn as a waveform with one line per day.">
-</picture>
-
 # Cristian Espinal Maya
 
-**One builder, a fleet of AI agents.** I ship AI products for tax, law and government in Latin America, at the pace of a team.
+**I build AI for work where a wrong answer has consequences: tax, law and public administration in Latin America.** Three products are in production. Each one answers with its source, so a professional can check it before signing.
 
 Partner & CTO at [INPLUX](https://inplux.co) · Partner at [TENSOR](https://tensor.lat) · Economist · PhD candidate in Engineering, Universidad Nacional de Colombia · Medellín
 
 [cespial.co](https://cespial.co/en) · [LinkedIn](https://www.linkedin.com/in/cespial/) · [ORCID](https://orcid.org/0009-0000-1009-8388) · [Get in touch](https://cespial.co/en#contacto)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cespial/Cespial/stats/pulse-dark.svg">
-  <img src="https://raw.githubusercontent.com/Cespial/Cespial/stats/pulse-light.svg" width="100%" alt="Production deployments, contributions, active days and longest streak, with contributions per month over the last 12 months.">
-</picture>
 
 ## In production
 
@@ -22,9 +12,9 @@ Partner & CTO at [INPLUX](https://inplux.co) · Partner at [TENSOR](https://tens
 
 ### Tribai
 
-AI tax consultant for Colombia. It answers with the exact article of the tax code, whether that article is in force, and a verified calculation.
+Tax answers for Colombia. Each one comes with the exact article of the tax code, whether that article is still in force, and a calculation that has been checked.
 
-**40 calculators · 1,301 articles**
+**40 calculators · 1,301 articles of the tax code**
 
 [tribai.co](https://tribai.co)
 
@@ -34,7 +24,7 @@ AI tax consultant for Colombia. It answers with the exact article of the tax cod
 
 ### Kelsen
 
-Legal AI for Colombia: research, document analysis and assistance over the country's body of law, verifiable down to the source.
+Legal research and document analysis over Colombian law. Every answer can be traced to the ruling or the statute it rests on.
 
 **970K+ documents · 28K+ rulings · 7.0M indexed passages**
 
@@ -46,50 +36,48 @@ Legal AI for Colombia: research, document analysis and assistance over the count
 
 ### Gobia
 
-GovTech platform for Colombian municipalities and departments. It connects fiscal data, targets and regulation so that public managers can decide on time and leave a trace.
-
-**AI · open data · regulatory automation**
+For municipalities and departments in Colombia. It joins fiscal data, targets and regulation, so that scattered records become decisions with a trail.
 
 [gobia.co](https://gobia.co)
 
 <br clear="left"><br>
 
-## How I work
+## How it gets built
 
-I build with coding agents running in parallel, mostly Claude Code. I choose the problem, design the system and review what ships; the agents do the typing. Activity here starts in February 2026. Most of it is client and product work, so it lives in private repositories.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cespial/Cespial/stats/record-dark.svg">
+  <img src="https://raw.githubusercontent.com/Cespial/Cespial/stats/record-light.svg" width="100%" alt="Successful production deployments, contributions and active days over the last 12 months, above a waveform of daily activity.">
+</picture>
 
-## Track record
-
-- **23 public and private organizations** served through INPLUX and TENSOR, among them Corantioquia, Universidad de Antioquia, Universidad de Medellín and Terminales de Transporte de Medellín. [Full list](https://cespial.co/en#experiencia)
-- **Teaching:** AI for leadership teams at NODO EAFIT and graduate courses at ESUMER.
-- **Before:** AI & Automation Lead at PRGX LATAM, and service architect at the Medellín Chamber of Commerce.
+I work with coding agents running in parallel, mostly Claude Code. I choose the problem, design the system and review what ships; the agents write the code. The record starts in February 2026. Most of it is product and client work, so it sits in private repositories and only the totals appear here.
 
 ## Research
 
-- **The Delegation Divide** (with Santiago Jiménez Londoño). An open, preregistered index of how much work AI agents can take over: 18,796 task statements, 433 occupations, 146 countries. [arXiv:2610.30752](https://arxiv.org/abs/2610.30752) · [index](https://balamlabs.org/adi) · [code](https://github.com/Cespial/delegation-divide)
-- **Augmented Human Capital.** A unified theory and an LLM-based way to measure which parts of a job AI augments. [arXiv:2604.01066](https://arxiv.org/abs/2604.01066) · [code](https://github.com/Cespial/cognitive-factor-economics)
-- **Flood Risk Mapping in Antioquia** (with Santiago Jiménez Londoño). Sentinel-1 radar and ensemble machine learning at municipal scale. [SSRN 6321538](https://doi.org/10.2139/ssrn.6321538) · [code](https://github.com/Cespial/colombia-flood-risk)
+I also measure what this technology does to work.
 
-## Open source
+- **The Delegation Divide** (with Santiago Jiménez Londoño). An open, preregistered index of how much work AI agents can take over. Across 146 countries, 35.2% of task time in employment is at least partly delegable. [arXiv:2610.30752](https://arxiv.org/abs/2610.30752) · [index](https://balamlabs.org/adi) · [code](https://github.com/Cespial/delegation-divide)
+- **Augmented Human Capital.** A theory of which parts of a job AI augments, and a way to measure them with language models. [arXiv:2604.01066](https://arxiv.org/abs/2604.01066) · [code](https://github.com/Cespial/cognitive-factor-economics)
+- **Flood Risk Mapping in Antioquia** (with Santiago Jiménez Londoño). Satellite radar and machine learning to map flood risk municipality by municipality. [SSRN 6321538](https://doi.org/10.2139/ssrn.6321538) · [code](https://github.com/Cespial/colombia-flood-risk)
 
-- [porcelain-ui](https://github.com/Cespial/porcelain-ui): agent skills for harvesting references, building and reviewing production UI.
-- [propuestas-secop](https://github.com/Cespial/propuestas-secop): Claude Code plugin that runs a public procurement bid in Colombia phase by phase, from the go/no-go gate to the red team.
-- [tensor-atlas](https://github.com/Cespial/tensor-atlas): Claude Code plugin with the skills to build a territorial atlas step by step.
-- [cartografia-colombia](https://github.com/Cespial/cartografia-colombia): interactive map of the cadastral status of Colombia's 1,122 municipalities. [Live](https://cartografia-colombia.vercel.app)
-- [night-lights-disaster-disruption](https://github.com/Cespial/night-lights-disaster-disruption): replication package on when satellite night lights measure disaster disruption.
-- [amparo](https://github.com/Cespial/amparo): online dispute resolution for health-care injunctions in Colombia, built at the ODR 2026 hackathon at Suffolk.
+## Clients and teaching
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cespial/Cespial/stats/stack-dark.svg">
-  <img src="https://raw.githubusercontent.com/Cespial/Cespial/stats/stack-light.svg" width="100%" alt="Share of code by language across all repositories.">
-</picture>
+- Through INPLUX and TENSOR, 23 public and private organizations, among them Corantioquia, Universidad de Antioquia, Universidad de Medellín and Terminales de Transporte de Medellín. [Full list](https://cespial.co/en#experiencia)
+- I teach AI to leadership teams at NODO EAFIT and to graduate students at ESUMER.
+- Before INPLUX, I led AI and automation at PRGX LATAM and designed services at the Medellín Chamber of Commerce.
 
-Everything else, including observatories, consulting work and earlier papers, is in [PROJECTS.md](PROJECTS.md).
+## Open work
 
-## Let's talk
+- [porcelain-ui](https://github.com/Cespial/porcelain-ui): the skills my agents use to collect references, build interfaces and review them against a quality bar.
+- [propuestas-secop](https://github.com/Cespial/propuestas-secop): a Claude Code plugin that takes a Colombian public tender from the go/no-go decision to the final package.
+- [cartografia-colombia](https://github.com/Cespial/cartografia-colombia): a map of the cadastral status of Colombia's 1,122 municipalities. [Live](https://cartografia-colombia.vercel.app)
+- [night-lights-disaster-disruption](https://github.com/Cespial/night-lights-disaster-disruption): replication package for a study of when satellite night lights measure the disruption a disaster causes.
 
-If you invest in or build AI for Latin America, I'd like to talk. I'll be in San Francisco the week of December 7, 2026.
+The rest is in [PROJECTS.md](PROJECTS.md).
+
+## Contact
+
+If you invest in AI for Latin America, or build it, write to me. I will be in San Francisco the week of December 7, 2026.
 
 [Get in touch](https://cespial.co/en#contacto) · [LinkedIn](https://www.linkedin.com/in/cespial/)
 
-<sub>Every chart and screenshot on this page is rebuilt daily by [scripts in this repo](scripts), straight from the GitHub API and the live sites, with no third-party widgets. A product only shows as live on a day its site answered. Exact numbers: [stats.json](https://github.com/Cespial/Cespial/blob/stats/stats.json).</sub>
+<sub>The screenshots and the record are rebuilt every day by [the scripts in this repository](scripts), from the live sites and the GitHub API. A product shows as live only on a day its site answered. Exact numbers: [stats.json](https://github.com/Cespial/Cespial/blob/stats/stats.json).</sub>
